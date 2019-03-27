@@ -20,8 +20,6 @@ public class PlatformSpawner : MonoBehaviour
             SpawnPlatformNum = 5;
             DecidePath();
         }
-
-        Debug.Log("--------------------");
     }
 
     // 确定路径
