@@ -10,7 +10,19 @@ public class ManagerVars : ScriptableObject
     public List<Sprite> bgThemeSpriteList = new List<Sprite>();
 
     // 平台的预制体
-    public GameObject normalPlatform;
+    public GameObject normalPlatformPre;
+    public List<GameObject> commonPlatformGroup = new List<GameObject>();   // 通用平台
+    public List<GameObject> grassPlatformGroup = new List<GameObject>();   // 草地平台
+    public List<GameObject> winnterPlatformGroup = new List<GameObject>();   // 冬季平台
+    public GameObject spikePlatformLeft;    // 左边的钉子平台
+    public GameObject spikePlatformRight;    // 右边的钉子平台
+
+    // 人物的预制体
+    public GameObject characterPre;
+
+    // 随机的平台主题
+    public List<Sprite> platformThemeSpriteList = new List<Sprite>();
+
 
     public static ManagerVars GetManagerVars()
     {

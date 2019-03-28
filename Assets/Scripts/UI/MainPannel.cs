@@ -42,6 +42,7 @@ public class MainPannel : MonoBehaviour
     {
         EventCenter.Broadcast(EventDefine.ShowGamePannel);
         gameObject.SetActive(false);
+        GameManager.Instance.IsGameStartd = true;
     }
 
     // 商城按钮点击调用

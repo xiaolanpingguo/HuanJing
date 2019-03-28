@@ -17,7 +17,30 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5feddf0396f8fd842b6a2034a343e884, type: 3}
   - {fileID: 21300000, guid: 274864b118ac4f54589e32e7035cd77f, type: 3}
   - {fileID: 21300000, guid: 81cb795749aefac4ea7663bc3f7f71fb, type: 3}
-  normalPlatform: {fileID: 6862715151207837286, guid: c2ddc77da2fc63b4c965eff1f29719ba,
+  normalPlatformPre: {fileID: 6862715151207837286, guid: c2ddc77da2fc63b4c965eff1f29719ba,
     type: 3}
+  commonPlatformGroup:
+  - {fileID: 8517905859156228033, guid: 90043e34e43f17346adaf7aa9d460f3b, type: 3}
+  - {fileID: 1776741312379789121, guid: f99a89fff2673c3478ba5c5ee999e2eb, type: 3}
+  - {fileID: 3455116405343723749, guid: ce1ce0d61d5d56a42883357ee1b747bc, type: 3}
+  - {fileID: 3738713385456420142, guid: 7363bc6a07f50d24e9b52d4326100263, type: 3}
+  grassPlatformGroup:
+  - {fileID: 4657164357898186621, guid: 0c0f69a8cf869a44ea3d71b0866b20e9, type: 3}
+  - {fileID: 1122265826303926571, guid: 7e7902b875f14fe4f8cb0de9fe80de4a, type: 3}
+  winnterPlatformGroup:
+  - {fileID: 9135089182828115894, guid: 9c78e292a2aa5364594629befbe11f12, type: 3}
+  - {fileID: 4548913095580941736, guid: d858e385131475c43b75250a365b6e55, type: 3}
+  - {fileID: 4631600714655871111, guid: ff77fd233d536b94bbc6bc4963fa928d, type: 3}
+  spikePlatformLeft: {fileID: 404005160374196008, guid: 94efe6f340433244787ca81a51e05a9f,
+    type: 3}
+  spikePlatformRight: {fileID: 7799515520601408630, guid: a3cbf96339bfe374892f1df41204cabc,
+    type: 3}
+  characterPre: {fileID: 2137576102729440542, guid: 6ad671951218ce143b2d7a6e9afdef67,
+    type: 3}
+  platformThemeSpriteList:
+  - {fileID: 21300002, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300012, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300004, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300000, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
   nexXPos: 0.554
   nextYPos: 0.645
